@@ -1,0 +1,322 @@
+@charset "UTF-8";
+@import url(https://fonts.google.com/specimen/Open+Sans);
+@import url(https://fonts.google.com/specimen/Poppins);
+
+@media screen and (max-width: 600px) {
+
+    div.build {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    }
+
+    div.build button {
+    margin-left: 110px;
+
+    }
+
+    p {
+        padding: 10px 40px 10px 40px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    h3 {
+        font-size: 20px;
+        text-align: center;
+        padding-bottom: 0px
+    }
+
+    div.build img {
+        width: 300px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    } 
+
+    div.grow {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 20px;
+        box-shadow: 0px 0px 7px rgb(127, 121, 121);
+        border-radius: 10px;
+}
+    
+    div.flowing {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        box-shadow: 0px 0px 7px rgb(127, 121, 121);
+        border-radius: 10px;
+}
+
+    div.users {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 20px;
+        box-shadow: 0px 0px 7px rgb(127, 121, 121);
+        border-radius: 10px;
+}
+   
+    div.topics img {
+        padding: 30px;
+
+    }div.contact {
+        background-color: hsl(192,100%,9%);
+        margin: 0px -20px -20px -20px;
+        padding: 100px 20px 20px 20px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    div.info {
+        padding-bottom: 40px;
+    }
+    
+    div.info p {
+        font-size: 16px;
+        text-align: left;
+    }
+    
+    div.faq {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    div.faq p {
+        line-height: 30px;
+        font-size: 16px;
+        margin-top: -30px;
+        text-align: left;
+    }
+    
+    div.icons {
+        text-align: center;
+    }
+    
+    div.copy {
+        background-color: hsl(192,100%,9%);
+        margin: -20px;
+        margin-bottom: -50px;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    
+    div.copy p {
+        font-size: 15px;
+    }
+  }
+
+@media screen and (min-width: 600px) {
+
+    h1 {
+        font-size: 65px;
+    }
+    
+    h3 {
+        font-size: 30px;
+    }
+
+    section {
+        width: 40%;
+        margin: auto;
+    }
+    
+    section#build {
+        width: 40%;   
+        margin: auto;
+    }
+
+    div.build {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px 50px 20px 50px;
+        justify-content: center;
+    }
+    
+    div.build img {
+        width: 50%;
+    } 
+
+    div.started {
+        width: 40%;
+    }
+
+    div.grow {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        box-shadow: 0px 0px 7px rgb(127, 121, 121);
+        border-radius: 10px;
+    }
+
+    div.grow img {
+        width: 40%;
+    }
+
+    div.flowing {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        box-shadow: 0px 0px 7px rgb(127, 121, 121);
+        border-radius: 10px;
+    }
+
+    div.flowing img {
+       width: 40%;
+    }
+
+    div.users {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        box-shadow: 0px 0px 7px rgb(127, 121, 121);
+        border-radius: 10px;
+    }
+
+    div.users img {
+        width: 40%;
+    }
+    div.contact {
+        background-color: hsl(192,100%,9%);
+        margin: 0px -20px -20px -20px;
+        padding: 100px 20px 20px 20px;
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    div.info {
+        width: 30%;
+        padding:20px;
+        margin-left: 20px;
+    }
+    
+    div.info p {
+        font-size: 16px;
+        padding: 0px 60px 0px 60px;
+    }
+    
+    div.faq {
+        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    
+    div.faq p {
+        margin: auto;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    
+    div.icons {
+        width: 30%;
+        text-align: center;
+    }
+    
+    div.copy {
+        background-color: hsl(192,100%,9%);
+        margin: -20px;
+        margin-bottom: -50px;
+        color: white;
+        display: flex;
+        justify-content: end;
+    }
+    
+    div.copy p {
+        font-size: 15px;
+    }
+  } 
+
+/* General CSS */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+p button {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1 h3 {
+    font-family: 'Poppins', Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+/* Top section */
+
+div.try button {
+    background-color: white;
+    border-radius: 5px;
+    float: right;
+    margin: 45px 20px 0px 0px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 1xp 1px 10px black;
+    padding: 10px 40px 10px 40px;
+}
+
+div.try img {
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+div.header {
+    background-image: url(./images/bg-hero-desktop.svg);
+    background-color: hsl(193,100%,96%);
+    margin: -20px;
+}
+
+div.build button {
+    background-color: hsl(322,100%,66%);
+    border-radius: 25px;
+    border: none;
+    color: white;
+    padding: 20px 60px 20px 60px;
+}
+
+/* Middle section */
+
+
+div.topics {
+    padding: 120px 70px 80px 70px;
+}
+
+div.started {
+
+    margin: auto;
+    text-align: center;
+    box-shadow: 1px 1px 5px black;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+div.started button {
+    background-color: hsl(322,100%,66%);
+    border-radius: 25px;
+    border: none;
+    color: white;
+    padding: 20px 80px 20px 80px;
+}
+
+/* Foooter */
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
